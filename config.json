@@ -1,0 +1,6 @@
+{
+  "sources": {
+    "EUROTECHJOBS": "./bin/euro_tech_jobs.go.so",
+    "INSTANCEWELOVEGOLANG": "./bin/we_love_golang.go.so"
+  }
+}

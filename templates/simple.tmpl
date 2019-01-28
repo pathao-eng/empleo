@@ -1,0 +1,13 @@
+{{ define "EmpleoTemplate" }}
+# Empleo
+Date : {{ .parsed_date }}
+{{ range $index, $e := .empleos }}
+- <b> {{ $e.Title }}</b>
+  <br>Company : {{ $e.Company }}
+  <br>Location : {{ $e.Location }}
+  <br>Tags : {{ range $i, $t := $e.Tags }}{{ $t }} {{ end }}
+  <br>Link : [{{ $e.Link }}]({{ $e.Link }})
+  <br>Time : {{ $e.Time }}
+{{ end }}
+
+{{ end }}
