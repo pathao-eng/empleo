@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestIrishJobsIe_Fetch(t *testing.T) {
+func TestEuroTechJobs_Fetch(t *testing.T) {
 	i := EuroTechJobs{}
 	if err := i.Init(); err != nil {
 		t.Error(err)
