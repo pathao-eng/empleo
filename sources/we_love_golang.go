@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gocolly/colly"
-	"github.com/s4kibs4mi/empleo/core"
+	"github.com/pathao-eng/empleo/core"
 	"strings"
 )
 

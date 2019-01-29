@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/s4kibs4mi/empleo/core"
+	"github.com/pathao-eng/empleo/core"
 	"github.com/spf13/viper"
 	"html/template"
 	"log"
